@@ -44,8 +44,8 @@ single_timeseries_extended_df = extend_single_timeseries_frame(
     data = walmart_sales_raw_df,
     id   = id,
     h    = 60
+    
 )
-single_timeseries_extended_df
 
 # Visualize the extended timeseries
 px.line(
@@ -108,7 +108,6 @@ xgb_model = reg.create_model(
 
 # CHECK MODEL ----
 
-reg.plot_model(xgb_model)
 
 
 # FEATURE IMPORTANCE -----
