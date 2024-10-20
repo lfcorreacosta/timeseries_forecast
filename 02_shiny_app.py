@@ -159,7 +159,6 @@ app_ui = ui.page_navbar(
         
     ),
     title=ui.tags.div(
-        #ui.img(src="business-science-logo.png", height="50px", style="margin:5px;"),
         ui.h4(" " + TITLE, style="color:white;margin-top:auto; margin-bottom:auto;"), 
         style="display:flex;-webkit-filter: drop-shadow(2px 2px 2px #222);"
     ),
